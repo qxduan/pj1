@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Internal stylesheet -->
+    <style>/* Styles for the main content area */
+      main {
+          font-family: 'Arial', sans-serif;
+          background-color: #f9f9f9;
+          padding: 20px;
+          border-radius: 8px;
+          max-width: 600px;
+          margin: 20px auto;
+      }
+      .events-list {
+      list-style-type: none; /* Remove bullet points */
+      padding-left: 0;
+      max-width: 600px;
+      margin: 20px auto;
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      padding: 20px;
+      }
+
+      .events-list li {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+      margin-bottom: 10px;
+      color: #666;
+      }
+
+      .events-list li:last-child {
+      border-bottom: none; /* remove border for the last item */
+      }
+
+      .events-list li strong {
+      font-weight: bold;
+      color: #333;
+      display: inline-block;
+      width: 100px; /* give it a fixed width to align details */
+      }
+
+
+    </style>
+</head>
+<!-- ... (your existing head content) ... -->
+
+<body>
+      <div class="container">
+            <header></header>
+            <nav>
+                  <ul>
+                      <li><a href="index.html" id="homeLink" class="active">Home</a></li>
+                      <li><a href="page1.html" id="page1Link">Band Members</a></li>
+                      <li><a href="page2.html" id="page2Link">Schedule</a></li>
+                      <li><a href="page3.html" id="page3Link">Contact</a></li>
+                  </ul>
+            </nav>
+    <main>
+
+      <h1>Upcoming Events</h1>
+  
+      <ul class="events-list">
+          <li>
+              <strong>Date:</strong> 10.4.2023 <br>
+              <strong>Location:</strong> Fuliang Sports Center, Jingdezhen, 
+              Jiangxi Province, China <br>
+              <strong>Time:</strong> 7:00 PM <br>
+              <strong>Event:</strong> Fuliang Strawberry Music Festival
+          </li>
+  
+      <div><img src="schdule.jpeg" alt="event" ></div>
+      </ul>
+    </main>
+</body>
+</html>

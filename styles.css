@@ -1,0 +1,109 @@
+/*--css style--*/
+
+body {
+      background-image: url('/Users/ericduan/Desktop/Tufts/cs120/pj1/live.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; /* Ensures the image isn't repeated */
+      background-attachment: fixed; /* Ensures the image remains fixed during scrolling */
+      /* Rest of your body styles */
+  }
+  .active {
+      font-weight: bold;
+      color: #fff; /* Change color to whatever you want */
+  }
+  
+  
+  .container {
+      width: 80%;
+      opacity: 0.85; 
+      margin: auto;
+      overflow: hidden;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+      background-image: url('/Users/ericduan/Desktop/Tufts/cs120/pj1/cover.jpg');
+      background-size: cover;  
+      background-position: center; 
+      height: 200px;
+     
+      text-align: center; 
+      line-height: 200px; 
+  }
+  
+  
+  nav ul {
+      padding: 0;
+      list-style-type: none;
+      overflow: hidden;
+      background-color: #ff6302;
+  }
+  
+  nav li {
+      float: left;
+  }
+  
+  nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  nav li a:hover {
+      background-color: #111;
+  }
+  
+  nav li a.active {
+      background-color: #ff6302;
+  }
+
+/*--css style--*/
+
+/* ... (Your Existing Styles) ... */
+
+/* 9. main content styling */
+main {
+      font-family: 'Arial', sans-serif;
+      background-color: rgba(255, 255, 255, 0.8); /* semi-transparent white */
+      padding: 30px;
+      border-radius: 8px;
+      margin-top: 20px;
+  }
+  
+  /* 10. Styling for form elements */
+  form {
+      margin-top: 20px;
+  }
+  
+  button[type="submit"] {
+      background-color: #ff6302;
+      transition: background-color 0.3s ease; /* smooth color transition on hover */
+  }
+  
+  button[type="submit"]:hover {
+      background-color: #ff4500;
+  }
+  
+  /* 11. Additional styling for links to make them more appealing */
+  a {
+      transition: color 0.3s ease; /* smooth color transition on hover */
+  }
+  
+  a:hover {
+      color: #ff4500;
+  }
+  
+  /* 12. Footer styling (Assuming you might add a footer later) */
+  footer {
+      text-align: center;
+      padding: 20px 0;
+      background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+      color: #fff;
+      margin-top: 20px;
+  }
+  

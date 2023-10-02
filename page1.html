@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1 with Internal Stylesheet</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Internal stylesheet -->
+    <style>/* Styles for the main content area */
+      main {
+          font-family: 'Arial', sans-serif;
+          background-color: #f9f9f9;
+          padding: 20px;
+          border-radius: 8px;
+          max-width: 600px;
+          margin: 20px auto;
+      }
+      
+      /* Styles for the h2 element */
+      h2 {
+          color: #333;
+          border-bottom: 2px solid #ddd;
+          padding-bottom: 10px;
+          margin-bottom: 20px;
+      }
+      
+      /* Styles for the paragraph */
+      p {
+          font-size: 16px;
+          color: #666;
+      }
+      
+      /* Styles for the table */
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 20px;
+      }
+      
+      table, th, td {
+          border: 1px solid #ddd;
+      }
+      
+      th, td {
+          text-align: left;
+          padding: 8px;
+      }
+      
+      th {
+          background-color: #f2f2f2;
+          color: #333;
+      }
+      
+      tr:hover {
+          background-color: #f5f5f5;
+      }
+
+      
+      .member-profile {
+      display: flex;
+      align-items: flex-start; /* Align items to the top of the flex container */
+      margin-bottom: 20px;
+      }
+
+      .member-profile img {
+      margin-right: 20px;
+      }
+
+      .member-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      }
+
+      .caption {
+      margin-top: 8px; /* Spacing between the h3 and the caption */
+      }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header></header>
+        </header>
+        <nav>
+              <ul>
+                  <li><a href="index.html" id="homeLink" class="active">Home</a></li>
+                  <li><a href="page1.html" id="page1Link">Band Members</a></li>
+                  <li><a href="page2.html" id="page2Link">Schedule</a></li>
+                  <li><a href="page3.html" id="page3Link">Contact</a></li>
+              </ul>
+        </nav>
+    
+    <main>
+        <h1> About COM'Z</h1>
+        <p></p>
+        <h2>Established in 2009 in southern Taiwan,
+            COM'Z stands for 'Crazy On Music' Zone. 
+            This name encapsulates our deep passion for 
+            music and our desire to immerse ourselves in its world. 
+            Through our melodies, we aim to convey the stories and 
+            experiences of life to everyone.</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    
+                    <th>Position</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Y.Z. Li</td>
+                    
+                    <td>Band Leader/Vocal</td>
+                </tr>
+
+                <tr>
+                  <td>Y.H. Sun</td>
+                  
+                  <td>Bass</td>
+                </tr>
+
+                <tr>
+                  <td>J.T. Weng</td>
+                  
+                  <td>Guitar/Keyboard</td>
+                </tr>
+
+
+                <tr>
+                    <td>S.S. Chang</td>
+                    
+                    <td>Drum</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+<br>
+<br>
+      <!-- Y.Z. Li's profile -->
+      <div class="member-profile">
+            <img src="yzl.png" alt="Y.Z. Li" width="100" height="100">
+            <div class="member-info">
+            <h3>Y.Z. Li</h3>
+            <span class="caption">Myanmar born Chinese, living in Taiwan.</span>
+            </div>
+      </div>
+      
+      <!-- Y.H. Sun's profile -->
+      <div class="member-profile">
+            <img src="yhs.png" alt="Y.H. Sun" width="100" height="100">
+            <div class="member-info">
+            <h3>Y.H. Sun</h3>
+            <span class="caption">Talented bassist from Kaosiung, Taiwan. </span>
+            </div>
+      </div>
+      
+      <!-- J.T. Weng's profile -->
+      <div class="member-profile">
+            <img src="jtw.png" alt="J.T. Weng" width="100" height="100">
+            <div class="member-info">
+            <h3>J.T. Weng</h3>
+            <span class="caption">Guitarist from Kaosiung, Taiwan.</span>
+            </div>
+      </div>
+      
+      <!-- S.S. Chang's profile -->
+      <div class="member-profile">
+            <img src="ssz.png" alt="S.S. Chang" width="100" height="100">
+            <div class="member-info">
+            <h3>S.S. Chang</h3>
+            <span class="caption">Keeps the beat on drums from Kaosiung, Taiwan.</span>
+            </div>
+      </div>
+      
+
+    </main>
+
+</body>
+</html>

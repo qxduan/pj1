@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us</title>
+    
+    <!-- Internal stylesheet -->
+    <style>
+        /* Your existing styles from Page 1 */
+        
+        main {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        
+        h1, h2 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Additional styles for the form */
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #666;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+      <header></header>
+      <nav>
+            <ul>
+                  <li><a href="index.html" id="homeLink" class="active">Home</a></li>
+                  <li><a href="page1.html" id="page1Link">Band Members</a></li>
+                  <li><a href="page2.html" id="page2Link">Schedule</a></li>
+                  <li><a href="page3.html" id="page3Link">Contact</a></li>
+            </ul>
+      </nav>
+      <main>
+          <h1>Contact Us</h1>
+          
+          <form action="#" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+
+              <button type="submit">Send Message</button>
+          </form>
+      </main>
+    </div> <!-- Closing the container div -->
+</body>
+</html>
