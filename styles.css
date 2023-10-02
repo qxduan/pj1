@@ -1,7 +1,7 @@
 /*--css style--*/
 
 body {
-      background-image: url('/Users/ericduan/Desktop/Tufts/cs120/pj1/live.jpeg');
+      background-image: url('live.jpeg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat; /* Ensures the image isn't repeated */
@@ -25,7 +25,7 @@ body {
   }
   
   header {
-      background-image: url('/Users/ericduan/Desktop/Tufts/cs120/pj1/cover.jpg');
+      background-image: url('cover.jpg');
       background-size: cover;  
       background-position: center; 
       height: 200px;
