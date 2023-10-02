@@ -103,3 +103,6 @@ main {
       margin-top: 20px;
   }
   
+  body {
+          overflow-y: scroll;
+  }
